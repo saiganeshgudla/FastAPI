@@ -1,0 +1,52 @@
+# ========================
+# 🔐 Sensitive Credentials
+# ========================
+credentials.json
+*.json          # Ignore all JSON files with secrets (add exceptions below if needed)
+service_account*.json
+*secret*.json
+*key*.json
+
+# Environment variables
+.env
+.env.*
+*.env
+
+# ========================
+# 🐍 Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# ========================
+# 🧪 Testing
+# ========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ========================
+# 💻 OS & Editor Files
+# ========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
